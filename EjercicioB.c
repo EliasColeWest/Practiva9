@@ -7,11 +7,11 @@ int main(){
     int contador, mayorcosecha, mayormes, menormes;
     mayor = menor = COS[0];
 
-    while (contador<12)
+    while (contador<=12)
     {
     	COS[contador]=rand() %100;
     	
-        printf("COS %f \n", COS[contador]);//Quitar luego
+        printf("COS %d %f \n", numero, COS[contador]);//Quitar luego
         sum = sum + COS[contador];
         promedio = sum/12;
         printf("SUMA = %f \n", sum);//Quitar luego
